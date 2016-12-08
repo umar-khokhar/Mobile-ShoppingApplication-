@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Mohammad Umar Khokhar - S1314549 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <Button
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:text="Shopping List"
+        android:id="@+id/list"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        />
+
+
+    <Button
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:text="Current Deals"
+        android:id="@+id/deals"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        />
+
+
+    <Button
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:text="View Store Map"
+        android:id="@+id/Maps"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        />
+
+    <Button
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:text="Popular times"
+        android:id="@+id/busy"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03"
+        />
+
+
+
+
+
+
+</LinearLayout>
+
+    <!--   Mohammad Umar Khokhar - S1314549    -->

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/item_input"
+        android:hint = "Shopping Item"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Add Item"
+        android:id = "@+id/button_add"
+        android:onClick="btn_click"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Remove Item"
+        android:id = "@+id/button_delete"
+        android:onClick="btn_click"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "List Items"
+        android:id = "@+id/list_students"
+        android:onClick="btn_click"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Clear"
+        android:id = "@+id/reset"
+        android:onClick="btn_click"
+        />
+
+
+        <ScrollView
+            android:id="@+id/SCROLLER_ID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            android:fillViewport="true"
+            >
+
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:hint = "Shopping Items"
+    android:id="@+id/textView"
+    android:gravity="top|center"
+    />
+
+
+
+</ScrollView>
+
+
+
+
+</LinearLayout>
